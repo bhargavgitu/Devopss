@@ -2,4 +2,4 @@
 FROM nginx
 
 # Set working directory
-COPY /usr/share/nginx/html
+COPY ./ /usr/share/nginx/html
